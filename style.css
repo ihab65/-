@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Style the header */
+header {
+  /*background-color: #ff9900; /* Orange background */
+  color: #000; /* White text color */
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: #000;
+  font-size: 24px;
+  margin: 0;
+}
+
+header h2 {
+  color: #000;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+nav ul {
+  background-color: #ff9900; /* Orange background */
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff; /* White text color for links */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style the content */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the headings */
+h1, h2, h3 {
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+/* Style paragraphs and lists */
+p, ul {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Style list items */
+li {
+  list-style:disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+/* Add some spacing to the list */
+ul {
+  padding-left: 20px;
+}
+
+/* Style links within the content */
+.content a {
+  color: #0077cc; /* Blue text color for links within content */
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ff9900; /* Orange background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 10px;
+}
+
+footer p  {
+  display: inline;
+  margin: 0 10px;
+  color: #fff; /* White text color for links in the footer */
+  text-decoration: none;
+}
+
